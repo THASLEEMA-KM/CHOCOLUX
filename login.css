@@ -1,0 +1,26 @@
+.logsub 
+{
+    text-decoration:none;
+    color: white;
+}
+.loginhead{
+    /* font-family: "Satisfy", cursive; */
+    font-family: "Sofadi One", system-ui;
+}
+.fab{
+    color: black;
+    font-size:30px;
+    
+}
+body{
+    background-image: url("./images/loginbg.webp");
+}
+/* .lbutton
+{
+    color: black;
+    height: 100px;
+    
+}
+.lbutton:hover{
+    background-color: blueviolet;
+} */

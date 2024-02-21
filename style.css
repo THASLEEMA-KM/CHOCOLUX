@@ -1,0 +1,414 @@
+/* .header{
+  position: fixed;
+
+} */
+
+.slider
+{
+    position: relative;
+}
+
+.centered {
+  position: absolute;
+  z-index: 4;
+  top: 0px;
+  left: 27%;
+  bottom: 550px;
+  padding-top: 0%;
+  transform: translate(-35%, 185%);
+}
+.logoname
+{
+  font-style: italic ;
+  /* font-family: "Sacramento", cursive; */
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Dancing Script", cursive;
+  font-size: 100px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+/* .div1
+{
+  position: relative;
+} */
+#frontimage {
+  margin-bottom: 300px;
+}
+#fimage{
+    position: sticky;
+    padding-left: 950px;
+    margin-top: 150px;
+}
+.navigation
+{ 
+    background-color: bisque;
+    font-family: "Short Stack", cursive;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+.navbar1
+{
+  justify-content: space-between;
+}
+.quote_btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.quote_btn-container a {
+  color: #000000;
+  margin: 0 10px;
+}
+.nav-item :hover{
+  border-radius: 40px 40px 20px 20px;
+  transition: ease-in-out;
+  background-color: rgba(116, 58, 17, 0.578);
+
+
+}
+
+h2,h3{
+  font-family: "Satisfy", cursive;
+}
+h5{
+  font-family: "Sofadi One", system-ui;
+ 
+}
+#readlink{
+  text-decoration: none;
+  color: rgb(91, 45, 12);
+}
+#readarrow
+{
+  font-family: "Satisfy", cursive; 
+  font-size: 1.5em;
+}
+#readimg
+{
+  width: 150px;
+}
+.pro-head
+{
+  font-family: "Short Stack", cursive;
+  text-align: center;
+  font-size: 30px;
+}
+.pro-text
+{
+  font-family: "Kalam", cursive;
+  font-size: 20px;
+  text-align: center;
+}
+#p-button
+{
+  background-color: #46200b;
+  color: white;
+  font-family: "Short Stack", cursive;
+  font-style: bold italic;
+  font-size: 20px;
+  opacity: 70%;
+}
+#p-button:hover{
+  opacity: 100%;
+}
+
+#offer {
+  padding-top: 20px; 
+  padding-bottom: 20px; 
+}
+
+.offerimage img {
+  max-width: 100%;
+}
+
+
+.offer
+{
+  display: grid; 
+  font-family: "Short Stack", cursive;
+  text-align: center;
+}
+.offercontent
+{
+  padding: 45px 15px 225px 15px;
+  width: 100%;
+}
+.offerhead
+{
+  font-size: 40px;
+}
+.offerhead1
+{
+  font-size: 30px;
+  font-family: "Short Stack", cursive;
+
+}
+.innerbox
+{
+  border: dashed 1px;
+}
+.buybutton
+{
+  display: inline-block;
+  /* width: 150px; */
+  color: #46200b;
+  font-weight: bold;
+  margin-top: 25px;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 30px 10px 30px 10px;
+  border: 1px solid rgb(84, 38, 5);
+  text-align: center;
+  padding: 10px;
+}
+#buybutton-a
+{
+  margin: 25px;
+}
+.buybutton:hover
+{
+  background-color: #46200b;
+  color: white;
+}
+.offerimage
+{
+  align-items: center;
+  justify-content: center;
+  margin-top: -175px;
+}
+marquee, .marque
+{
+  font-family: "Protest Riot", sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  color: red;
+}
+#b-button
+{
+  background-color: #46200b;
+  color: white;
+  font-family: "Short Stack", cursive;
+  font-style: bold italic;
+  font-size: 20px;
+  opacity: 70%;
+}
+#b-button:hover{
+  opacity: 100%;
+}
+.clientimage
+{
+ width: 100%;
+ height: 300px;
+}
+.testhead
+{
+  font-family: "Protest Riot", sans-serif;
+}
+.testcontent
+{
+  font-family: "Short Stack", cursive;
+}
+.fa-star,.fa-star-half-stroke
+{
+  color: goldenrod;
+  align-items: center;
+  font-size: 20px;
+}
+.ratebar
+{
+  /* transform:ScaleX(0%); */
+  animation: tomove 5s ;
+ 
+}
+@keyframes tomove{
+  from { width: 0 }
+  to   { width: 100% }
+
+}
+.ratebar1
+{
+  /* transform:ScaleX(0%); */
+  animation: tomove1 5s  alternate;
+}
+@keyframes tomove1{
+  from { width: 0 }
+  to   { width: 95% }
+
+}
+.ratebar2
+{
+  /* transform:ScaleX(0%); */
+  animation: tomove2 5s ;
+}
+@keyframes tomove2{
+  from { width: 0 }
+  to   { width: 90% }
+
+}
+.prohead{
+  font-family: "Short Stack", cursive;
+  font-size: 20px;
+}
+/* card hovers */
+#c-button
+{
+  background-color: #46200b;
+  color: white;
+  font-family: "Short Stack", cursive;
+  font-style: bold italic;
+  font-size: 20px;
+  opacity: 70%;
+}
+#c-button:hover{
+  opacity: 100%;
+}
+.footer
+{
+  background-color: #F1EAD9;
+}
+.icons
+{
+
+  justify-content: space-between;
+}
+.bx{
+  font-size: 40px;
+  color: #000000;
+
+}
+.list
+{
+  list-style: none;
+}
+.list a{
+  text-decoration: none;
+  font-family: "Sofadi One", system-ui;
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+}
+.copyrights
+{
+  align-items: center;
+  height: 5vh;
+  color: white;
+  background-color: #46200b;
+  font-family: "Short Stack", cursive;
+
+}
+.copy{
+  font-size: 15px;
+
+}
+@media screen and (max-width: 1300px){
+
+  
+.centered {
+  position: absolute;
+  z-index: 4;
+  top: 0px;
+  left: 27%;
+  bottom: 460px;
+  padding-top: 0%;
+  transform: translate(-35%, 185%);
+}
+}
+@media screen and (max-width: 1100px){
+
+  
+  .centered {
+    position: absolute;
+    z-index: 4;
+    top: 0px;
+    left: 27%;
+    bottom: 460px;
+    padding-top: 0%;
+    transform: translate(-35%, 185%);
+  }
+  .logoname
+{
+  font-style: italic ;
+  /* font-family: "Sacramento", cursive; */
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+  }
+ 
+  @media screen and (max-width: 768px){
+
+  
+    .centered {
+      position: absolute;
+      z-index: 4;
+      top: 0px;
+      left: 27%;
+      bottom: 285px;
+      padding-top: 0%;
+      transform: translate(-35%, 185%);
+    }
+    .logoname
+  {
+    font-style: italic ;
+    /* font-family: "Sacramento", cursive; */
+    /* font-family: "Pacifico", cursive; */
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+  }
+}
+@media screen and (max-width: 500px)
+{
+
+  
+  .centered {
+    position: absolute;
+    z-index: 4;
+    top: 0px;
+    left: 27%;
+    bottom: 190px;
+    padding-top: 0%;
+    transform: translate(-35%, 185%);
+  }
+  .logoname
+{
+  font-style: italic ;
+  /* font-family: "Sacramento", cursive; */
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+}
+@media screen and (max-width: 465px)
+{
+
+  
+  .centered {
+    position: absolute;
+    z-index: 4;
+    top: 0px;
+    left: 27%;
+    bottom: 155px;
+    padding-top: 0%;
+    transform: translate(-35%, 185%);
+  }
+  .logoname
+{
+  font-style: italic ;
+  /* font-family: "Sacramento", cursive; */
+  /* font-family: "Pacifico", cursive; */
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+}

@@ -1,0 +1,74 @@
+.slider
+{
+    position: relative;
+}
+.div1
+{
+  position: relative;
+}
+#frontimage {
+  margin-bottom: 300px;
+}
+#fimage{
+    position: sticky;
+    padding-left: 950px;
+    margin-top: 150px;
+}
+.navigation
+{ 
+    background-color: bisque;
+    font-family: "Short Stack", cursive;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+}
+.navbar1
+{
+  justify-content: space-between;
+}
+.quote_btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.quote_btn-container a {
+  color: #000000;
+  margin: 0 10px;
+}
+.nav-item :hover{
+  border-radius: 40px 40px 20px 20px;
+  transition: ease-in-out;
+  background-color: rgba(116, 58, 17, 0.578);
+
+
+}
+h2,h3{
+  font-family: "Satisfy", cursive;
+}
+h5{
+  font-family: "Sofadi One", system-ui;
+  
+ 
+}
+#readlink{
+  text-decoration: none;
+  color: rgb(91, 45, 12);
+}
+.aboutcontent
+{
+    line-height: 1.5em;
+}
+.brand
+{
+  color:  #46200b;
+}
+.teamname{
+  font-family: "Satisfy", cursive;
+}
+.teamcontent
+{
+  font-family: "Sofadi One", system-ui;
+}
